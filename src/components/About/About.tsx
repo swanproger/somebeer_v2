@@ -1,14 +1,14 @@
 import React from "react";
 import "./About.css";
 import { Header } from "../header/header";
-import beer from "../../img/bluemoon.jpg";
-import beer1 from "../../img/buron.jpg";
-import beer2 from "../../img/guinness.jpg";
-import beer3 from "../../img/ipa.jpg";
-import beer4 from "../../img/lager.jpg";
-import beer5 from "../../img/miller.jpg";
-import beer6 from "../../img/stella.jpg";
-import city from "../../img/city.png";
+import beer from "@assets/images/bluemoon.jpg";
+import beer1 from "../assets/images/buron.jpg";
+import beer2 from "../assets/images/guinness.jpg";
+import beer3 from "../assets/images/ipa.jpg";
+import beer4 from "../assets/images/lager.jpg";
+import beer5 from "../assets/images/miller.jpg";
+import beer6 from "../assets/images/stella.jpg";
+import city from "../assets/images/city.png";
 
 export default function About() {
     return (

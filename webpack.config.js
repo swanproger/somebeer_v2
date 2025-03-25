@@ -8,7 +8,12 @@ module.exports = {
     clean: true,
   },
   resolve: {
-    extensions: [".ts", ".js"],
+    extensions: [".ts", ".js", "jsx"],
+    modules: [path.resolve(__dirname, "src"), "node_modules"],
+    alias: {
+      "@assets": path.resolve(__dirname, "src/assets"),
+      "@components": path.resolve(__dirname, "src/components"),
+    },
   },
   module: {
     rules: [
@@ -16,6 +21,10 @@ module.exports = {
         test: /\.ts$/,
         use: "ts-loader",
         exclude: /node_modules/,
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg|jpg)$/i,
+        type: "asset",
       },
     ],
   },
