@@ -1,0 +1,67 @@
+:root {
+    --main-color: #ff5555;
+    --business-color: #2c2c2c;
+}
+
+.maindiv {
+    height: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    padding-top: 58px;
+}
+
+.centerContent {
+    display: flex;
+    padding: 10px 20px 0;
+    justify-content: center;
+}
+
+.AboutContent {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: 700px;
+    border-radius: 24px;
+    box-shadow: 0px 0px 12px 0px #e1e1e1;
+    color: var(--main-color);
+}
+.AboutRight {
+    height: 100%;
+    width: 60%;
+    border-radius: 24px;
+}
+.AboutLeft {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 40%;
+    border-radius: 24px;
+}
+.AboutDivText {
+    margin-top: 30px;
+}
+.AboutText {
+    font-size: 50px;
+    font-weight: 900;
+}
+.beerPhoto {
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    gap: 10px;
+    margin-top: 30px;
+}
+.img {
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+
+.imgCity {
+    height: 85%;
+    width: 90%;
+    border-radius: 12px;
+    opacity: 60%;
+    box-shadow: 5px 5px 5px 5px rgb(114, 109, 109) inset;
+}

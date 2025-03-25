@@ -1,0 +1,45 @@
+@media screen and (max-width: 768px) {
+    .header {
+        justify-content: start;
+    }
+
+    .menuContainer {
+        justify-content: flex-start;
+    }
+
+    .menuBtn {
+        display: flex;
+        flex-direction: column;
+        border: none;
+        background: none;
+        width: 60px;
+        height: 60px;
+        gap: 8px;
+        padding: 8px;
+        box-sizing: border-box;
+        justify-content: center;
+        min-width: 60px;
+    }
+
+    .menuBtn:hover {
+        background-color: white;
+    }
+
+    .menuBtn div {
+        width: 100%;
+        height: 4px;
+        background-color: black;
+        border-radius: 6px;
+    }
+
+    .menu {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        margin: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+}

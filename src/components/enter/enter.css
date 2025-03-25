@@ -1,0 +1,84 @@
+.back {
+    background-image: url(../../img/fon.jpg);
+    position: fixed;
+    z-index: -1;
+    background-size: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.mainplace {
+    display: flex;
+    border-radius: 10px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.descr {
+    text-align: center;
+    vertical-align: middle;
+    width: 730px;
+
+    border-radius: 6px;
+    margin: auto;
+    padding: 4px;
+}
+
+.regplace {
+    background-color: white;
+    border-radius: 10px;
+    width: 760px;
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    margin-top: 50px;
+}
+
+.regplace1 {
+    width: 740px;
+    height: 340px;
+    border-radius: 6px;
+    background-color: white;
+    margin-top: 30px;
+}
+
+.pl {
+    margin: auto;
+    width: 235px;
+    height: 35px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.reginput {
+    width: 230px;
+    height: 35px;
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    margin-left: 40px;
+}
+
+.reg {
+    width: 235px;
+    height: 35px;
+    margin-left: 255px;
+    margin-top: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    border: none;
+}
+
+.reg:hover {
+    opacity: 0.7;
+}
+
+.img1 {
+    position: absolute;
+    height: 20px;
+    margin-left: 5px;
+}

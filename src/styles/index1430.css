@@ -1,0 +1,7 @@
+@media screen and (min-width: 1161px) and (max-width: 1430px) {
+    .menuItem {
+        padding: 8px 10px;
+        font-size: 12px;
+        overflow: visible;
+    }
+}
