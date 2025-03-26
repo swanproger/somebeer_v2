@@ -1,7 +1,7 @@
 import React from "react";
 import "./About.css";
 import { Header } from "../header/header";
-import beer from "@assets/images/bluemoon.jpg";
+import beer from "../assets/images/bluemoon.jpg";
 import beer1 from "../assets/images/buron.jpg";
 import beer2 from "../assets/images/guinness.jpg";
 import beer3 from "../assets/images/ipa.jpg";

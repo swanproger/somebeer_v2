@@ -5,10 +5,14 @@ module.exports = {
   output: {
     filename: "bundle.js",
     path: path.resolve(__dirname, "dist"),
+    publicPath: "/dist",
     clean: true,
   },
+  devServer: {
+    overlay: true,
+  },
   resolve: {
-    extensions: [".ts", ".js", "jsx"],
+    extensions: [".ts", ".js", "jsx", "tsx"],
     modules: [path.resolve(__dirname, "src"), "node_modules"],
     alias: {
       "@assets": path.resolve(__dirname, "src/assets"),
