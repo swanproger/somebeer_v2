@@ -17,6 +17,8 @@
       "types": ["images.d.ts"],
       "declaration": true,
       "noEmit": true,
+      "isolatedModules": true, // может не стоит использовать. В данной настройке будут обрабатываться ошибки файлов, даже которые мы не используемz
+      "sourceMap": true
     },
     "include": ["src/**/*", "src/types/images.d.ts`"],
     "exclude": ["node_modules","src/assets/**/*", "src/webpack/", "postcss.config.js",".babelrc"]

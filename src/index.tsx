@@ -32,7 +32,10 @@ function Maindiv() {
     );
 }
 
-const root = ReactDOM.createRoot(document.getElementById("root"));
+const rootElement = document.getElementById("root");
+let root: ReactDOM.Root | null
+if (rootElement){
+root = ReactDOM.createRoot(rootElement);
 root.render(
     <Router>
         <Routes>
@@ -48,3 +51,6 @@ root.render(
         </Routes>
     </Router>
 );
+} else {
+    console.error(" Не найден элемент с id root")
+}
